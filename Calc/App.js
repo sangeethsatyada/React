@@ -22,7 +22,7 @@ function App()
     <div className="main">
       <input type="text" value={number} style={{backgroundColor:'black',color:'white'}}/><br></br>
       <button className='clear' onClick={clear}>C</button>
-      <button>%</button>
+      <button onClick={change} value="%">%</button>
       <button className='sa'>+/-</button><br></br>
       <button onClick={change} value="7">7</button>
       <button onClick={change} value="8">8</button>
